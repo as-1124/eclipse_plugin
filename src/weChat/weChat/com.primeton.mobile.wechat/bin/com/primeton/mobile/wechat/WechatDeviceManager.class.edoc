@@ -1,0 +1,23 @@
+<map>
+  <entry>
+    <string>com.primeton.mobile.wechat.WechatDeviceManager.applyDeviceID(java.lang.String, int, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.WechatDeviceManager.applyDeviceID(String accessToken, int quantity, String reason)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 申请设备ID&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;quantity&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;reason&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.WechatDeviceManager.applyDeviceID(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.WechatDeviceManager.applyDeviceID(String accessToken, int quantity, String reason, String comment, String poiID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 申请设备ID&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;quantity&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;reason&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;comment&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;poiID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.WechatDeviceManager.applyDeviceID(java.lang.String, int, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.WechatDeviceManager.applyDeviceID(String accessToken, int quantity, String reason, String comment)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 申请设备ID&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;quantity&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;reason&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;comment&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>WechatDeviceManager</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;com.primeton.mobile.wechat.WechatDeviceManager&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 摇一摇周边/设备管理&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;作者:&lt;/dt&gt;&lt;dd&gt;huangjw(mailto:huangjw@primeton.com)&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

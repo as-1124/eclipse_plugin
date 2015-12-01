@@ -1,0 +1,50 @@
+<map>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.uploadTemporaryMedia(String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;uploadTemporaryMedia&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;uploadTemporaryMedia&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.uploadTemporaryMedia&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;type(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;filePath(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;wechatMedia(com.primeton.mobile.wechat.model.media.WechatMedia):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.getPermaentMediaCount(String, java.util.HashMap)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getPermaentMediaCount&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getPermaentMediaCount&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.getPermaentMediaCount&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaCountMap(java.util.HashMap):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.getWechatNews(String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getWechatNews&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getWechatNews&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.getWechatNews&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;wechatNews(com.primeton.mobile.wechat.model.media.WechatNews[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.uploadPermaentMedia(String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;uploadPermaentMedia&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;uploadPermaentMedia&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.uploadPermaentMedia&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;type(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;filePath(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.updateWechatNews(String, String, String, com.primeton.mobile.wechat.model.media.WechatNews)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateWechatNews&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateWechatNews&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.updateWechatNews&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;index(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;article(com.primeton.mobile.wechat.model.media.WechatNews):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;success(Boolean):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.addNews(String, com.primeton.mobile.wechat.model.media.WechatNews[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addNews&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addNews&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.addNews&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;articles(com.primeton.mobile.wechat.model.media.WechatNews[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.getTemporaryMedia(String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTemporaryMedia&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTemporaryMedia&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.getTemporaryMedia&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;savePath(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.getPermaentMedia(String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getPermaentMedia&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getPermaentMedia&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.getPermaentMedia&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;savePath(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.deletePermaentMedia(String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deletePermaentMedia&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deletePermaentMedia&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.deletePermaentMedia&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;success(Boolean):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.uploadPermaentVedio(String, String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;uploadPermaentVedio&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;uploadPermaentVedio&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.uploadPermaentVedio&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;filePath(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;title(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;intro(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;media(com.primeton.mobile.wechat.model.media.WechatMedia):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MediaComponent.getPermaentMediaList(String, String, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getPermaentMediaList&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getPermaentMediaList&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent.getPermaentMediaList&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;type(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;offset(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;count(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;data(com.primeton.mobile.wechat.model.media.WechatMediaList):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>MediaComponent</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;MediaComponent.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;MediaComponent&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MediaComponent&lt;br&gt;&lt;b&gt;Description:&lt;/b&gt;多媒体素材构件&lt;/html&gt;</string>
+  </entry>
+</map>

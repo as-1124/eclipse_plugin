@@ -1,0 +1,26 @@
+<map>
+  <entry>
+    <string></string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;tentitybiz.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.tentitybiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.demo.tentitybiz.updateTEntity(com.primeton.demo.newdataset.TEntity)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateTEntity&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateTEntity&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.tentitybiz.updateTEntity&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tentity(com.primeton.demo.newdataset.TEntity):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.demo.tentitybiz.getTEntity(com.primeton.demo.newdataset.TEntity)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getTEntity&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getTEntity&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.tentitybiz.getTEntity&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tentity(com.primeton.demo.newdataset.TEntity):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tentity(com.primeton.demo.newdataset.TEntity):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.demo.tentitybiz.queryTEntitys(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, Int, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryTEntitys&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryTEntitys&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.tentitybiz.queryTEntitys&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageIndex(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;pageSize(Int):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tentitys(com.primeton.demo.newdataset.TEntity[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.demo.tentitybiz.deleteTEntitys(com.primeton.demo.newdataset.TEntity[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteTEntitys&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteTEntitys&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.tentitybiz.deleteTEntitys&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tentitys(com.primeton.demo.newdataset.TEntity[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.demo.tentitybiz.addTEntity(com.primeton.demo.newdataset.TEntity)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addTEntity&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addTEntity&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.tentitybiz.addTEntity&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;tentity(com.primeton.demo.newdataset.TEntity):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

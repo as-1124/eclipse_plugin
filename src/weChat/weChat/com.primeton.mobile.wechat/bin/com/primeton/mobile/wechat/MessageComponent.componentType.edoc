@@ -1,0 +1,58 @@
+<map>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.sendText2Group(String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;sendText2Group&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;sendText2Group&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.sendText2Group&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;groupID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;content(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.dealReceivedMessage(String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;dealReceivedMessage&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;dealReceivedMessage&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.dealReceivedMessage&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;dataPackage(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;returnData(java.util.Map):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.checkSignature(String, String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;checkSignature&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;checkSignature&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.checkSignature&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;signature(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;token(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;nonce(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;timestamp(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;isTrusted(Boolean):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.SendVoice2Group(String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;SendVoice2Group&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;sendText2Group&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.SendVoice2Group&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;groupID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.SendImage2Group(String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;SendImage2Group&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;sendText2Group&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.SendImage2Group&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;groupID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>MessageComponent</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;MessageComponent.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;MessageComponent&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.uploadNews(String, com.primeton.mobile.wechat.model.media.WechatNews[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;uploadNews&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;uploadNews&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.uploadNews&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;news(com.primeton.mobile.wechat.model.media.WechatNews[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.SendImage2Users(String, String[], String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;SendImage2Users&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;sendText2Users&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.SendImage2Users&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;openIDs(String[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.sendVideo2Users(String, String[], String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;sendVideo2Users&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;sendVideo2Users&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.sendVideo2Users&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;openIDs(String[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;title(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;desc(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.deleteSendBatchMessage(String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteSendBatchMessage&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteSendBatchMessage&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.deleteSendBatchMessage&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;successed(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.sendVideo2Group(String, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;sendVideo2Group&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;sendVideo2Group&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.sendVideo2Group&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;groupID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.getBatchMessageStatus(String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getBatchMessageStatus&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getBatchMessageStatus&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.getBatchMessageStatus&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;status(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.SendVoice2Users(String, String[], String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;SendVoice2Users&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;sendText2Users&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.SendVoice2Users&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;openIDs(String[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MessageComponent.sendText2Users(String, String[], String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;sendText2Users&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;sendText2Users&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.mobile.wechat.MessageComponent.sendText2Users&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;openIDs(String[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;content(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;msgID(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

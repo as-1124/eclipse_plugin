@@ -1,0 +1,13 @@
+<map>
+  <entry>
+    <string>AdvanceOperations</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;com.primeton.mobile.wechat.AdvanceOperations&lt;/b&gt;&lt;br/&gt;&lt;p&gt; Wechat 智能操作接口.&#x0D;
+ &lt;dl&gt;&lt;dt&gt;作者:&lt;/dt&gt;&lt;dd&gt;huangjw(mailto:huangjw@primeton.com)&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.AdvanceOperations.createGrammer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;WechatGrammer com.primeton.mobile.wechat.AdvanceOperations.createGrammer(String accessToken, String queryStr, String category, String city, String appid, String uid)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 创建语义&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;queryStr&lt;/b&gt; 语义搜索串, 即用户输入的文本串&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;category&lt;/b&gt; 需要使用的服务类型，多个用“，”隔开，不能为空&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;city&lt;/b&gt; 城市名称&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;region&lt;/b&gt; 区域名称&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;appid&lt;/b&gt; 公众号唯一标识i&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;uid&lt;/b&gt; 用户唯一id（非开发者id），用户区分公众号下的不同用户（建议填入用户openid），&#x0D;
+ 如果为空，则无法使用上下文理解功能。appid和uid同时存在的情况下，才可以使用上下文理解功能。&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

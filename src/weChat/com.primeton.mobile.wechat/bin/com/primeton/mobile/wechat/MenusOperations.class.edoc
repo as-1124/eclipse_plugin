@@ -1,0 +1,28 @@
+<map>
+  <entry>
+    <string>com.primeton.mobile.wechat.MenusOperations.deleteMenus(java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.MenusOperations.deleteMenus(String accessToken)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 删除菜单&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MenusOperations.createMenu(java.lang.String, com.primeton.mobile.wechat.model.menu.WechatMenu[])</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.MenusOperations.createMenu(String accessToken, WechatMenu[] menus)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 创建菜单&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;menuData&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MenusOperations.getMenuConfiguration(java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;WechatMenuConfiguration com.primeton.mobile.wechat.MenusOperations.getMenuConfiguration(String accessToken)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 获取自定义菜单配置, 菜单删除后配置可能还存在.&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MenusOperations.getMenus(java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;WechatMenu[] com.primeton.mobile.wechat.MenusOperations.getMenus(String accessToken)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 查询自定义菜单&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>MenusOperations</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;com.primeton.mobile.wechat.MenusOperations&lt;/b&gt;&lt;br/&gt;&lt;p&gt; WeChat菜单操作&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;作者:&lt;/dt&gt;&lt;dd&gt;huangjw(mailto:huangjw@primeton.com)&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

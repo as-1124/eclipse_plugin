@@ -1,0 +1,14 @@
+<map>
+  <entry>
+    <string>com.primeton.demo.oplocker.updateBiz()</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateBiz&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateBiz&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.oplocker.updateBiz&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>oplocker</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;oplocker.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;oplocker&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.oplocker&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.demo.oplocker.addBiz()</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;addBiz&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addBiz&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.oplocker.addBiz&lt;/html&gt;</string>
+  </entry>
+</map>

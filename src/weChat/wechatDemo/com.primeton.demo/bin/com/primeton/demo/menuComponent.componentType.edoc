@@ -1,0 +1,10 @@
+<map>
+  <entry>
+    <string>menuComponent</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;menuComponent.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;menuComponent&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.menuComponent&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.demo.menuComponent.createMenu(com.primeton.mobile.wechat.model.menu.WechatMenu[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;createMenu&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;createMenu&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.demo.menuComponent.createMenu&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;menus(com.primeton.mobile.wechat.model.menu.WechatMenu[]):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;successed(Boolean):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

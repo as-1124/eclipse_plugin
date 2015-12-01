@@ -1,0 +1,33 @@
+<map>
+  <entry>
+    <string>com.primeton.mobile.wechat.AccountManagement.getQRImageByTicket(java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;void com.primeton.mobile.wechat.AccountManagement.getQRImageByTicket(String ticket, String savePath)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 通过Ticket换取二维码&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;ticket&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>AccountManagement</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;com.primeton.mobile.wechat.AccountManagement&lt;/b&gt;&lt;br/&gt;&lt;p&gt; WeChat 账户操作接口.&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;作者:&lt;/dt&gt;&lt;dd&gt;huangjw(mailto:huangjw@primeton.com)&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.AccountManagement.createQRImage(java.lang.String, int)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;WechatQRCodeModel com.primeton.mobile.wechat.AccountManagement.createQRImage(String accessToken, int qrID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 创建永久二维码Ticket&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;qrID二维码标识&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.AccountManagement.connection2Short(java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.AccountManagement.connection2Short(String accessToken, String longUrl)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 将长链接转成短链接&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;longUrl&lt;/b&gt; 长链接URL&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;short_url&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.AccountManagement.createTempQRImage(java.lang.String, long, int)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;WechatQRCodeModel com.primeton.mobile.wechat.AccountManagement.createTempQRImage(String accessToken, long expireSeconds, int qrID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 创建临时二维码Ticket&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;expireSeconds&lt;/b&gt; 有效时间，单位：秒&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;qrID&lt;/b&gt; 二维码标识&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.AccountManagement.createQRString(java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;WechatQRCodeModel com.primeton.mobile.wechat.AccountManagement.createQRString(String accessToken, String qrID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 创建永久字符串二维码Ticket&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;qrID&lt;/b&gt; 二维码标识&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

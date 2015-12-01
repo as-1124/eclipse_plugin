@@ -1,0 +1,79 @@
+<map>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.sendVoice(java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.sendVoice(String accessToken, String touser, String mediaID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 给用户发送语音消息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;touser&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.sendVideoUseAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.sendVideoUseAccount(String accessToken, String touser, String mediaID, String thumbMediaID, String title, String description, String kfID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 通过指定客服给用户发送视频消息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;touser&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;thumbMediaID&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;title&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;description&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;kfID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.sendImageUseAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.sendImageUseAccount(String accessToken, String touser, String mediaID, String kfID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 通过指定客服给用户发送图片消息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;touser&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;kfID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.setAccountImage(java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.setAccountImage(String accessToken, String kfAccount, String imgPath)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 设置客服账号头像&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;kfAccount&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;imgPath&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.sendVoiceUseAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.sendVoiceUseAccount(String accessToken, String touser, String mediaID, String kfID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 通过指定客服给用户发送图片消息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;touser&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;kfID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.sendText(java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.sendText(String accessToken, String touser, String content)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 给用户发送文本消息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;touser&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;content&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.sendTextUseAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.sendTextUseAccount(String accessToken, String touser, String content, String kfID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 通过指定客服给用户发送文本消息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;touser&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;content&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;kfID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.updateAccount(java.lang.String, com.primeton.mobile.wechat.model.HotlineAccount)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.updateAccount(String accessToken, HotlineAccount account)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 修改客服账号&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;account&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.sendVideo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.sendVideo(String accessToken, String touser, String mediaID, String thumbMediaID, String title, String description)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 给用户发送视频消息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;touser&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;thumbMediaID&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;title&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;description&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.getOnlineServiceAccounts(java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;HotlineAccount[] com.primeton.mobile.wechat.HotlineService.getOnlineServiceAccounts(String accessToken)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 获取当前所有在线客服&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.deleteHotlineAccount(java.lang.String, com.primeton.mobile.wechat.model.HotlineAccount)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.deleteHotlineAccount(String accessToken, HotlineAccount account)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 删除客服账号&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;account&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>HotlineService</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;com.primeton.mobile.wechat.HotlineService&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 客服管理接口。&#x0D;
+ &lt;strong&gt;通过客服接口向用户推送消息时，用户必须在48小时内曾与公众号进行过互动&lt;/strong&gt;&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;作者:&lt;/dt&gt;&lt;dd&gt;huangjw(mailto:huangjw@primeton.com)&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.sendImage(java.lang.String, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.sendImage(String accessToken, String touser, String mediaID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 给用户发送图片消息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;touser&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.createHotlineAccount(java.lang.String, com.primeton.mobile.wechat.model.HotlineAccount)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.HotlineService.createHotlineAccount(String accessToken, HotlineAccount account)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 创建客服账号&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;account&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.HotlineService.getAllServiceAccount(java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;HotlineAccount[] com.primeton.mobile.wechat.HotlineService.getAllServiceAccount(String accessToken)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 获取所有客服账号&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

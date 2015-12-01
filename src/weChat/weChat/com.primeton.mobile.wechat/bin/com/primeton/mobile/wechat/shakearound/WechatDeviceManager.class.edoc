@@ -1,0 +1,29 @@
+<map>
+  <entry>
+    <string>com.primeton.mobile.wechat.shakearound.WechatDeviceManager.applyDeviceID(java.lang.String, int, java.lang.String, java.lang.String, long)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;DeviceApplication com.primeton.mobile.wechat.shakearound.WechatDeviceManager.applyDeviceID(String accessToken, int quantity, String reason, String comment, long poiID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 申请设备ID&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;quantity&lt;/b&gt; 申请的设备ID的数量，单次新增设备超过500个，需要人工审核流程&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;reason&lt;/b&gt; 申请原因，不超过100个字&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;comment&lt;/b&gt; 备注，不超过15个汉字或30个英文字母&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;poiID&lt;/b&gt; 设备关联的门店ID&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.shakearound.WechatDeviceManager.queryDeviceList(java.lang.String, com.primeton.mobile.wechat.model.around.DeviceIdentify)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.shakearound.WechatDeviceManager.queryDeviceList(String accessToken, DeviceIdentify deviceIdentifier)&lt;/b&gt;&lt;br/&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.shakearound.WechatDeviceManager.bindDeviceWithPoi(java.lang.String, com.primeton.mobile.wechat.model.around.DeviceIdentify, long)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.shakearound.WechatDeviceManager.bindDeviceWithPoi(String accessToken, DeviceIdentify deviceIdentifier, long poiID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 配置设备和门店&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;quantity&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;reason&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.shakearound.WechatDeviceManager.updateDeviceInfo(java.lang.String, com.primeton.mobile.wechat.model.around.DeviceIdentify, java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;boolean com.primeton.mobile.wechat.shakearound.WechatDeviceManager.updateDeviceInfo(String accessToken, DeviceIdentify deviceIdentify, String reason, String comment)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 更新设备信息&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;deviceIdentify&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;reason&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;comment&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>WechatDeviceManager</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;com.primeton.mobile.wechat.shakearound.WechatDeviceManager&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 摇一摇周边/设备管理&lt;br&gt;&#x0D;
+ 申请配置所需要的UUID, Major, Minor。申请成功后返回批次ID，可用返回的批次ID用“查询设备列表”接口&#x0D;
+ 拉取本次申请的设备ID。单次新增设备超过500个，需要走人工审核流程呢，大概三个工作日&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;作者:&lt;/dt&gt;&lt;dd&gt;huangjw(mailto:huangjw@primeton.com)&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

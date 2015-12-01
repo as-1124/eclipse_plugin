@@ -1,0 +1,53 @@
+<map>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.deletePermaentMedia(java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.deletePermaentMedia(String accessToken, String mediaID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 删除永久媒体素材&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.getPermaentMedia(java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.getPermaentMedia(String accessToken, String mediaID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 获取永久图文素材&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>MeidaOperations</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;com.primeton.mobile.wechat.MeidaOperations&lt;/b&gt;&lt;br/&gt;&lt;p&gt; WeChat 多媒体素材操作接口.&#x0D;
+ &#x0D;
+ &lt;dl&gt;&lt;dt&gt;作者:&lt;/dt&gt;&lt;dd&gt;huangjw(mailto:huangjw@primeton.com)&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.uploadTemporaryMedia(java.lang.String, java.lang.String, java.util.List&lt;java.lang.String&gt;)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.uploadTemporaryMedia(String accessToken, String type, List&lt;String&gt; filePaths)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 上传临时素材(仅限本地文件)&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;type&lt;/b&gt; 素材类型&lt;code&gt; image/vedio/voice/thumb&lt;/code&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;formData&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;media_id&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;WechatExceprion&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.updatePermaentMedia(java.lang.String, java.lang.String, int, com.primeton.mobile.wechat.model.WechatArticle)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.updatePermaentMedia(String accessToken, String mideaID, int index, WechatArticle newArticle)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 更新永久图文素材&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mideaID&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;index&lt;/b&gt; 需要更新的内容在素材中的索引位置&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;newArticle&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.getPermaentMeidaList(java.lang.String, java.lang.String, int, int)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.getPermaentMeidaList(String accessToken, String type, int offset, int count)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 更具素材类型获取素材列表&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;type&lt;/b&gt; &lt;code&gt;image/video/voice/news&lt;/code&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;offset&lt;/b&gt; a Integer start at 0&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;count&lt;/b&gt; a Integer between 1 and 20&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.uploadPermaentMedia(java.lang.String, java.lang.String, java.util.List&lt;java.lang.String&gt;)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.uploadPermaentMedia(String accessToken, String type, List&lt;String&gt; filePaths)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 上传永久图文素材&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;type&lt;/b&gt; &lt;code&gt;image/voice/video/thumb&lt;/code&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;filePaths&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.addNews(java.lang.String, java.util.List&lt;com.primeton.mobile.wechat.model.WechatArticle&gt;)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.addNews(String accessToken, List&lt;WechatArticle&gt; articles)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 添加永久图文素材&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;articles&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.getPermaentMediaCount(java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.getPermaentMediaCount(String accessToken)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 获取永久多媒体素材数量&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.mobile.wechat.MeidaOperations.getTemporaryMedia(java.lang.String, java.lang.String)</string>
+    <string>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;String com.primeton.mobile.wechat.MeidaOperations.getTemporaryMedia(String accessToken, String mediaID)&lt;/b&gt;&lt;br/&gt;&lt;p&gt; 获取临时媒体素材&#x0D;
+ &lt;dl&gt;&lt;dt&gt;参数：&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;accessToken&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;mediaID&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;返回：&lt;/dt&gt;&lt;dd&gt;&lt;/dd&gt;&lt;dt&gt;抛出：&lt;/dt&gt;&lt;dd&gt;HttpException&lt;/dd&gt;&lt;dd&gt;IOException&lt;/dd&gt;&lt;dd&gt;JSONException&lt;/dd&gt;&lt;/dl&gt;&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </entry>
+</map>
