@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Require-Bundle: 
-eos-webCtxPath: wechat
-Bundle-Vendor: huangjw
-Bundle-Version: 1.0.0
-Bundle-Name: com.primeton.mobile.wechat
-Bundle-Description: 
-Bundle-SymbolicName: com.primeton.mobile.wechat
-
